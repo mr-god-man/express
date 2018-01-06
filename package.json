@@ -6,10 +6,6 @@
   "scripts": {
     "start": "node server.js",
   },
-  "engines": {
-    "node": "6.x",
-    "npm" : "3.x"
-  },
   "author": "",
   "license": "ISC",
   "dependencies": {
