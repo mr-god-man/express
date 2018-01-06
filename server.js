@@ -14,6 +14,5 @@ app.use(express.static(__dirname + "/static"))
 app.get("/",function(req,res){
 	res.end("123")
 })
-a
 
-app.listen(process.env.LEANCLOUD_APP_PORT);
+app.listen(process.env.LEANCLOUD_APP_PORT||3000);
