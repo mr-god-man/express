@@ -9,10 +9,11 @@ AV.init({
 
 var app = express();
 app.use(AV.express())
-
+app.use(express.static(__dirname + "/static"))
 
 app.get("/",function(req,res){
 	res.end("123")
 })
+a
 
 app.listen(process.env.LEANCLOUD_APP_PORT);
